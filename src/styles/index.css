@@ -1,0 +1,42 @@
+/*.jumbotron {
+    height: 100vh;
+}*/
+
+.cover {
+    min-height: 100vh;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+}
+
+.hr-min-sec {
+    display: inline;
+}
+
+.txt {
+    color: #34495e;
+    font-weight: bold;
+}
+
+.quotes {
+    color: #8e44ad;
+}
+
+
+
+@font-face {
+  font-family: 'Graduate';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Graduate'), local('Graduate-Regular'),
+       url('/fonts/graduate-v4-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/fonts/graduate-v4-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+.days {
+    font-family: Graduate;
+    font-size: 13em;
+    color: #c0392b;
+}

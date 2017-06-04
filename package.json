@@ -1,0 +1,27 @@
+{
+  "name": "countdown",
+  "version": "1.0.0",
+  "description": "Count down to your goals while getting inspired on the way",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnotu/countdown.git"
+  },
+  "keywords": [
+    "goals",
+    "countdown"
+  ],
+  "author": "@john_otu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnotu/countdown/issues"
+  },
+  "homepage": "https://github.com/johnotu/countdown#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
